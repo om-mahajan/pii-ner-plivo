@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Exclude large model files
+*.safetensors
+*.bin
+
+# Exclude all model output directories
+out/
+out_tiny/
+out_tiny_v2/
+out_tiny_v3/
+out_tiny_v4/
+out_tiny_v5/
+out_baseline/
+out_mobile/
+out_quantized/
